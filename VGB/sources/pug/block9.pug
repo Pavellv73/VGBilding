@@ -1,0 +1,107 @@
+section#block9.block9
+    div.block9-content.row
+        div.block9-head
+            h2 Узнайте стоимость своего проекта
+            p Вы получите подробный расчет стоимости своего проекта в течение часа
+
+        div.project-price
+            form(action="mailer.php" method="post")
+
+                div.point-1.points
+                    input.hidden-input(type="hidden" name="type-work" value="Архитектурный проект")
+                    p 1. Выберите вид работ под ключ:
+                    select
+                        option Архитектурный проект
+                        option Дизайн интерьера
+                    div.point-block-1.point-blocks
+                        div.point.point-active
+                            p Архитектурный проект
+                        div.point
+                            p Дизайн интерьера
+
+
+                div.point-2.points
+                    input.hidden-input(type="hidden" name="bilding" value="Без строительства")
+                    p 2. Необходимость строительства:
+                    select
+                        option Без строительства
+                        option Со строительством
+                    div.point-block-2.point-blocks
+                        div.point.point-active
+                            p Без строительства
+                        div.point
+                            p Со строительством
+                div.point-3.points
+                    input.hidden-input(type="hidden" name="type-object" value="Квартира")
+                    p 3. Выберите тип объекта:
+                    select
+                        option Квартира
+                        option Дом
+                        option Другое
+                    div.point-block-3.point-blocks
+                        div.point.point-active
+                            p Квартира
+                        div.point
+                            p Дом
+                        div.point
+                            p Другое
+
+                div.point-4.points
+                    p 4. Укажите квадратуру объекта:
+                    input#input-value(type="text" name="volume" placeholder="300 м2" required)
+                    input#range-max(type="range" min="100" max="500" step="10")
+
+                div.point-5.points
+                    input.hidden-input(type="hidden" name="style" value="Современный")
+                    p 5. Выберите стиль:
+                    select
+                        option Современный
+                        option Классика
+                        option Модерн
+                        option Другое
+                    div.point-block-5.point-blocks
+                        div.point.point-active
+                            p Современный
+                        div.point
+                            p Классика
+                        div.point
+                            p Модерн
+                        div.point
+                            p Другое
+                    input(type="text" name="style" placeholder="Или укажите свои пожелания" required)
+
+                div.point-6.points
+                    input.hidden-input(type="hidden" name="map-point" value="В пределах МКАД")
+
+                    p 6. Укажите местоположения объекта:
+                    select
+                        option В пределах МКАД
+                        option За МКАД
+                        option Крым
+                        option Другое
+                    div.point-block-6.point-blocks
+                        div.point.point-active
+                            p В пределах <br>МКАД
+                        div.point
+                            p За МКАД
+                        div.point
+                            p Крым
+                        div.point
+                            p Другое
+
+                div.point-7.points
+                    input(type="hidden" name="form" value="форма")
+                    p 7. Заполните форму:
+                    input(type="text" name="name" placeholder="Укажите Ваше имя" required)
+                    input(type="text" name="phone" placeholder="Укажите Ваш телефон" required)
+                    button(type="submit") Получить расчёт
+
+                p.garantia *мы гарантируем конфиденциальность <br>Ваших данных
+
+
+
+
+
+
+
+

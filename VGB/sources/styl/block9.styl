@@ -1,0 +1,358 @@
+.block9
+  width 100%
+  height auto
+  background-color rgba(255, 255, 255, 0.85)
+  display flex
+  display -webkit-flex
+  justify-content center
+  align-items center
+  flex-direction row
+
+  .block9-content
+    width 100%
+    height auto
+    padding-top 30px
+    padding-bottom 40px
+    justify-content center
+    align-items center
+    flex-direction column
+    @media (min-width 768px)
+      padding-top 40px
+      padding-bottom 40
+    @media (min-width 1280px)
+      padding-top 60px
+      padding-bottom 60px
+
+    .block9-head
+      width 100%
+      height auto
+      margin-bottom 40px
+      padding 0 12px
+      box-sizing border-box
+      @media (min-width 768px)
+        padding 0 33px
+        margin-bottom 60px
+        width 83%
+      @media (min-width 1280px)
+        padding 0 47px
+
+
+      h2
+        color #202020
+        font-family "GretaDisplayPro"
+        font-size 24px
+        font-weight 400
+        text-align left
+        margin-bottom 8px
+        @media (min-width 768px)
+          font-size 30px
+          font-weight 400
+          margin-bottom 10px
+        @media (min-width 1280px)
+          font-size 34px
+          font-weight 400
+          margin-bottom 12px
+
+      p
+        color #202020
+        font-family "Blogger_Sans"
+        font-size 16px
+        font-weight 400
+        line-height 18px
+        text-align left
+        @media (min-width 768px)
+          font-size 18px
+          font-weight 400
+        @media (min-width 1280px)
+          font-size 20px
+
+    .project-price
+      width 100%
+      height auto
+
+      form
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+
+
+        .points
+          width 100%
+          max-width 247px
+          height auto
+          margin-bottom 40px
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          @media (min-width 768px)
+            max-width 470px
+            align-items flex-start
+          @media (min-width 1280px)
+            max-width 585px
+
+
+          p
+            width 100%
+            color #4f4f4f
+            font-family "Blogger_Sans"
+            font-size 14px
+            font-weight 400
+            line-height 20px
+            margin-bottom 18px
+            text-align left
+            @media (min-width 768px)
+              font-size 16px
+              font-weight 400
+              line-height 20px
+              margin-bottom 20px
+
+          select
+            width 246px
+            height 52px
+            border-radius 4px
+            padding 0 18px
+            box-sizing border-box
+            border 2px solid #b69977
+            background-color #dddddd
+            appearance: none!important;
+            background-image url("img/arrow-down.svg")
+            background-position 93% 50%
+            background-repeat no-repeat
+            transition all 0.1s ease
+            &:active, &:focus
+              background-image url("img/arrow-solid.png")
+            @media (min-width 768px)
+              display none
+
+            option
+              width 100%
+              color #202020
+              text-align center
+              font-family "GretaDisplayPro"
+              font-size 14px
+              font-weight 400
+              line-height 16px
+              background-color #dddddd
+              &:hover
+                color #1d1d1d
+                background-color #dddddd
+              &:focus
+                background-color #dddddd
+
+
+          input
+            width 246px
+            height 52px
+            box-shadow inset 0 1px 2px rgba(0, 0, 0, 0.2)
+            border-radius 5px
+            background-color #e7e7e7
+            border none
+            text-align center
+            color #4f4f4f
+            font-family "Blogger_Sans-Italico"
+            font-size 14px
+            font-weight 300
+            font-style italic
+            line-height 20px
+            margin-bottom 32px
+            box-sizing border-box
+            transition all 0.2s ease
+            &:hover
+              box-shadow inset 0 2px 3px rgba(0, 0, 0, 0.2)
+            &:focus
+              box-shadow inset 0 2px 3px rgba(0, 0, 0, 0.2)
+
+            &::-webkit-input-placeholder
+              color #4f4f4f!important
+            @media (min-width 768px)
+              font-size 16px
+              font-weight 300
+              font-style italic
+              line-height 20px
+              text-align left
+              padding-left 20px
+            @media (min-width 1280px)
+              height 82px
+              font-size 18px
+              font-weight 300
+
+          .point-blocks
+            display none
+            @media (min-width 768px)
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              flex-direction row
+              max-width 470px
+            @media (min-width 1280px)
+              max-width 585px
+
+            .point
+              width 234px
+              height 66px
+              border 2px solid #c7c7c7
+              background-color #dddddd
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items center
+              transition all 0.2s ease
+              cursor pointer
+              &:first-child
+                border-radius 5px 0 0 5px
+              &:last-child
+                border-radius 0 5px 5px 0
+              &:hover
+                border 2px solid #5e5e5e
+              @media (min-width 768px)
+                height 82px
+
+
+              p
+                color #202020
+                font-family "GretaDisplayPro"
+                font-size 16px
+                font-weight 400
+                line-height 20px
+                text-align center
+                margin-bottom 0
+                @media (min-width 1280px)
+                  font-size 18px
+                  font-weight 400
+                  line-height 20px
+
+            .point-active
+              border 2px solid #b69977
+
+          button
+            width 184px
+            height 52px
+            border-radius 64px
+            border 2px solid #b69977
+            color #202020
+            font-family "Blogger_Sans"
+            font-size 10px
+            font-weight 500
+            text-transform uppercase
+            transition all 0.2s ease
+            cursor pointer
+            background-color transparent
+            &:hover
+              border 2px solid #cdb69b
+            @media (min-width 768px)
+              width 230px
+              height 66px
+              font-size 12px
+              font-weight 500
+            @media (min-width 1280px)
+              width 284px
+              height 82px
+              font-size 14px
+              font-weight 500
+
+        .point-1
+          @media (min-width 1280px)
+            .point-block-1
+              width 585px
+              .point
+                width 50%
+                max-width 50%
+
+
+        .point-2
+          @media (min-width 1280px)
+            .point-block-2
+              width 585px
+              .point
+                width 50%
+                max-width 50%
+
+        .point-4
+          input[type=range]
+            width 246px
+            height 8px
+            border-radius 2px
+            border 2px solid #c7c7c7
+            background-color #dddddd
+            margin-bottom 0
+            cursor pointer
+            padding-left 0
+
+          input[type=range]::-webkit-slider-thumb
+            width 34px
+            height 36px
+            border-radius 5px
+            border 2px solid #b69977
+            background-color #dddddd
+            cursor pointer
+
+          input[type=range]::-moz-range-thumb
+            width 34px
+            height 36px
+            border-radius 5px
+            border 2px solid #b69977
+            background-color #dddddd
+            cursor pointer
+
+          input[type=range]::-ms-thumb
+            width 34px
+            height 36px
+            border-radius 5px
+            border 2px solid #b69977
+            background-color #dddddd
+            cursor pointer
+          @media (min-width 768px)
+            input
+              width 156px
+              height 66px
+
+
+        .point-5
+          margin-bottom 0
+          select
+            margin-bottom 32px
+          @media (min-width 768px)
+            .point-block-5
+              margin-bottom 20px
+
+            input
+              width 470px
+              height 66px
+              @media (min-width 1280px)
+                width 584px
+                height 82px
+
+        .point-7
+          @media (min-width 768px)
+            input
+              width 470px
+              height 66px
+              @media (min-width 1280px)
+                width 584px
+                height 82px
+
+        .garantia
+          color #929292
+          font-family "Blogger_Sans"
+          font-size 14px
+          font-style italic
+          line-height 20px
+          @media (min-width 768px)
+            width 57%
+            text-align left
+            color #929292
+            font-family "Blogger Sans"
+            font-size 16px
+            font-style italic
+            line-height 20px
+            br
+              display none
+          @media (min-width 1280px)
+            font-size 18px

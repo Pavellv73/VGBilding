@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-149.000000, -4295.000000)">
+            <g id="icon" transform="translate(148.000000, 4294.000000)">
+                <rect id="bg" x="0" y="0" width="86" height="86"></rect>
+                <g id="Group-10" transform="translate(2.000000, 2.000000)" stroke="#B69977" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M0,24 L82,24 L82,77.0047535 C82,79.763552 79.7641708,82 76.9939698,82 L5.00603017,82 C2.24127605,82 0,79.76187 0,77.0047535 L0,24 Z" id="Rectangle-20"></path>
+                    <path d="M67,71.9947828 C67,69.2362404 69.2456516,67 71.9947828,67 L82,67 L67,82 L67,71.9947828 Z" id="Rectangle-20"></path>
+                    <path d="M60.9944754,22.8571429 L20.9944754,22.8571429 M14.9321194,22.8571429 L4.99441992,22.8571429 C2.23607797,22.8571429 0,20.3042033 0,17.1485382 L0,6.85714286 L82,6.85714286 L82,17.1485382 C82,20.3013135 79.7623722,22.8571429 77.0065503,22.8571429 L67.1035686,22.8571429" id="Rectangle-20" transform="translate(41.000000, 15.428571) scale(1, -1) translate(-41.000000, -15.428571) "></path>
+                    <rect id="Rectangle-21" x="15" y="0" width="6" height="17" rx="3"></rect>
+                    <rect id="Rectangle-21" x="61" y="0" width="6" height="17" rx="3"></rect>
+                    <circle id="Oval-4" cx="25" cy="36" r="1"></circle>
+                    <circle id="Oval-4" cx="36" cy="36" r="1"></circle>
+                    <circle id="Oval-4" cx="46" cy="36" r="1"></circle>
+                    <circle id="Oval-4" cx="57" cy="36" r="1"></circle>
+                    <circle id="Oval-4" cx="68" cy="36" r="1"></circle>
+                    <circle id="Oval-4" cx="14" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="25" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="36" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="46" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="57" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="68" cy="47" r="1"></circle>
+                    <circle id="Oval-4" cx="14" cy="58" r="1"></circle>
+                    <ellipse id="Oval-4" cx="25" cy="58" rx="3" ry="3"></ellipse>
+                    <circle id="Oval-4" cx="36" cy="58" r="1"></circle>
+                    <circle id="Oval-4" cx="46" cy="58" r="1"></circle>
+                    <circle id="Oval-4" cx="57" cy="58" r="1"></circle>
+                    <circle id="Oval-4" cx="68" cy="58" r="1"></circle>
+                    <circle id="Oval-4" cx="14" cy="69" r="1"></circle>
+                    <circle id="Oval-4" cx="25" cy="69" r="1"></circle>
+                    <circle id="Oval-4" cx="36" cy="69" r="1"></circle>
+                    <circle id="Oval-4" cx="46" cy="69" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

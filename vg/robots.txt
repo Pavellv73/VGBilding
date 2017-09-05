@@ -1,0 +1,9 @@
+User-agent: *
+
+ 
+Allow: /
+Disallow: /*?
+ 
+Host: https://www.vgbuildings.ru
+
+Sitemap: https://www.vgbuildings.ru/sitemap.xml 

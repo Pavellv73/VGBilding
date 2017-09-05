@@ -1,0 +1,4 @@
+ErrorDocument 404 http://sait.worknext.ru/vgbuildings/v2/404.html
+RewriteEngine On
+RewriteCond %{HTTP_HOST} https://vgbuildings.ru/
+RewriteRule (.*) http://www.vgbuildings.ru/$1 [R=301,L]

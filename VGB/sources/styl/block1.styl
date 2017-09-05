@@ -1,0 +1,127 @@
+.block1
+  width 100%
+  height auto
+  background-image url("img/bg-1.png")
+  background-size cover
+  background-position center bottom
+  background-repeat no-repeat
+  @media (min-width 768px)
+    width 100%
+  @media (min-width 1280px)
+    width 100%
+
+  .block1-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 49px
+    padding-bottom 60px
+    box-sizing border-box
+    @media (min-width 768px)
+      padding-top 294px
+      padding-bottom 270px
+      align-items flex-start
+
+    .block1-head
+      width 80%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content flex-start
+      align-items flex-start
+      flex-direction column
+      @media (min-width 768px)
+        width 68%
+        padding-left 50px
+        box-sizing border-box
+      @media (min-width 1280px)
+        padding-left 70px
+        width 90%
+
+      h1
+        color #ffffff
+        font-family "GretaDisplayPro"
+        font-size 28px
+        font-weight 400
+        text-transform uppercase
+        margin-bottom 6px
+        line-height 33px
+        @media (min-width 768px)
+          font-size 44px
+          font-weight 400
+          line-height 50px
+          margin-bottom 8px
+
+        @media (min-width 1280px)
+          font-size 56px
+          font-weight 400
+          line-height 60px
+
+
+      p
+        color #ffffff
+        font-family "Blogger_Sans"
+        font-size 16px
+        font-weight 400
+        line-height 26px
+        margin-bottom 60px
+        @media (min-width 768px)
+          font-size 20px
+          font-weight 400
+          line-height 26px
+        @media (min-width 1280px)
+          font-size 22px
+          font-weight 400
+          line-height 25px
+
+      span
+        color #bbbbbb
+        font-family "Blogger_Sans-Italico"
+        font-size 14px
+        font-style italic
+        line-height 20px
+        margin-bottom 28px
+        @media (min-width 768px)
+          font-size 16px
+          line-height 20px
+        @media (min-width 1280px)
+          font-size 18px
+          line-height 20px
+          margin-bottom 42px
+
+      a
+        width 184px
+        height 52px
+        border-radius 64px
+        border 2px solid #e3bf95
+        color #d9b285
+        font-family "Blogger_Sans"
+        font-size 10px
+        font-weight 500
+        text-transform uppercase
+        letter-spacing 0.36px
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        transition all 0.2s ease
+        @media (min-width 768px)
+          width 230px
+          height 66px
+          font-size 12px
+          font-weight 500
+        @media (min-width 1280px)
+          width 284px
+          height 82px
+          font-size 14px
+          font-weight 500
+
+        &:hover
+          border 2px solid #ffe6c8
+          color #ffe6c8
+        &:active
+          border 2px solid #c59e70

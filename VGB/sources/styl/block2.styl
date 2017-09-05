@@ -1,0 +1,679 @@
+.block2
+  width 100%
+  height auto
+  background-color #1f1f1f
+  background-image url("img/body-bg.png")
+  background-repeat repeat
+
+  .block2-content
+    width 100%
+    height auto
+    padding-top 20px
+    padding-bottom 40px
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    @media (min-width 768px)
+      padding-top 60px
+      padding-bottom 50px
+    @media (min-width 1280px)
+      padding-bottom 70px
+
+    .block2-head
+      width 100%
+      height auto
+      margin-bottom 40px
+      @media (min-width 768px)
+        margin-bottom 60px
+      @media (min-width 1280px)
+        margin-bottom 80px
+
+      h2
+        color #ffffff
+        margin-bottom 8px
+        @media (min-width 768px)
+          margin-bottom 12px
+
+      p
+        color #ffffff
+        font-family "Blogger_Sans"
+        font-size 16px
+        font-weight 400
+        text-align center
+        @media (min-width 768px)
+          font-size 18px
+          font-weight 400
+        @media (min-width 1280px)
+          font-size 20px
+          line-height 22px
+
+    .block2-gallery
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+
+      .tabs-block
+        width 250px
+        height auto
+        margin-bottom 24px
+        @media (min-width 768px)
+          width 100%
+        @media (min-width 1280px)
+          margin-bottom 40px
+
+
+
+        .wrapper-dropdown-5
+          width 246px
+          height 52px
+          border-radius 4px
+          border 2px solid #e3bf95
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          position relative
+          cursor pointer
+          transition all 0.2s ease
+          background-color #1f1f1f
+          color #ffffff
+          font-family "GretaDisplayPro"
+          font-size 14px
+          font-weight 400
+          line-height 16px
+          @media (min-width 768px)
+            display none
+          &:before
+            width 20px
+            height 9px
+            content " "
+            background-image url("img/arrow-down.svg")
+            background-repeat no-repeat
+            background-size 100%
+            position absolute
+            top 21px
+            right 18px
+            transition all 0.2s ease
+
+
+          option
+            width 100%
+            border 2px solid #e3bf95
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            color #ffffff
+            font-family "GretaDisplayPro"
+            font-size 14px
+            font-weight 400
+            line-height 16px
+            text-align center
+
+
+
+        .tabs-row
+          display none
+          @media (min-width 768px)
+            width 590px
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction row
+            margin 0 auto
+          @media (min-width 1280px)
+            width 785px
+
+          div
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            width 196px
+            height 66px
+            border 2px solid rgba(255, 255, 255, 0.75)
+            color #ffffff
+            font-family "GretaDisplayPro"
+            font-size 16px
+            font-weight 400
+            line-height 20px
+            text-align center
+            transition all 0.1s ease
+            cursor pointer
+            @media (min-width 1280px)
+              width 261px
+              height 82px
+              font-size 18px
+              font-weight 400
+              line-height 20px
+            &:hover
+              border 2px solid #ffffff
+
+            &:nth-of-type(1)
+              border-radius 5px 0 0 5px
+            &:nth-of-type(2)
+              border-radius 0 0 0 0
+              border-right none
+              border-left none
+
+            &:nth-of-type(3)
+              border-radius 0 5px 5px 0
+
+
+
+
+      .slider-block1, .slider-block2, .slider-block3
+        width 100%
+        display none
+
+        .slider-block
+          width 100%
+          height 360px
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          margin-bottom 42px
+          position relative
+
+          .slick-prev-noactive
+            display none
+            @media (min-width 768px)
+              display block
+              background-image url("img/arrow-left-gray.svg")
+              width 46px
+              height 46px
+              background-repeat no-repeat
+              background-size 100%
+              background-position center
+              position absolute
+              top 152px
+            left -9px
+            @media (min-width 1280px)
+              left 50px
+            &:before
+              display none
+
+          .slick-next-noactive
+            display none
+            @media (min-width 768px)
+              display block
+              background-image url("img/arrow-right-gray.svg")
+              width 46px
+              height 46px
+              background-repeat no-repeat
+              background-size 100%
+              background-position center
+              position absolute
+              top 152px
+            right -9px
+            @media (min-width 1280px)
+              right 50px
+            &:before
+              display none
+
+          .dots
+            width 100%
+            height 15px
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction row
+            margin-top 18px
+            @media (min-width 768px)
+              display none!important
+
+            li
+              width 13px
+              height 13px
+              border 2px solid #e3bf95
+              border-radius 100%
+              margin 0 6px
+              transition all 0.2s ease
+
+              button
+                display none
+
+            li.slick-active
+              width 13px
+              height 13px
+              border 2px solid #e3bf95
+              background-color #e3bf95
+              transition all 0.2s ease
+
+
+
+      .slider-block1
+        .slick-prev1
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-left-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+          left -9px
+          @media (min-width 1280px)
+            left 50px
+          &:before
+            display none
+
+        .slick-next1
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-right-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+          right -9px
+          @media (min-width 1280px)
+            right 50px
+          &:before
+            display none
+
+        .slick-slider
+          width 100%
+          height 350px
+          @media (min-width 768px)
+            width 610px
+          @media (min-width 1280px)
+            width 800px
+
+          .slick-slide
+            width 100%
+            height 350px
+            display flex
+            display -webkit-flex
+            justify-content flex-end
+            align-items flex-end
+            overflow hidden
+            @media (min-width 768px)
+              justify-content center
+              align-items center
+              margin 0 10px
+
+            img
+              width auto
+              height auto
+              @media (min-width 768px)
+                width auto
+                height auto
+
+        .text-slide1
+          width 100%
+          height 320px
+          @media (min-width 768px)
+            height 240px
+          @media (min-width 1280px)
+            height 220px
+
+          .text-slide-content
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+            margin 0 auto
+            @media (min-width 768px)
+              width 590px
+            @media (min-width 1280px)
+              width 784px
+            h3
+              color #ffffff
+              font-family "GretaDisplayPro"
+              font-size 21px
+              font-weight 400
+              text-transform uppercase
+              text-align left
+              margin-bottom 18px
+              width 100%
+              @media (min-width 768px)
+                font-size 25px
+                font-weight 400
+                text-transform uppercase
+
+            p
+              color #bbbbbb
+              font-family "Blogger_Sans"
+              font-size 14px
+              font-weight 400
+              line-height 20px
+              margin-bottom 18px
+              @media (min-width 768px)
+                font-size 16px
+                font-weight 400
+                line-height 20px
+
+            div.price-text
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction row
+
+              p
+                color #ffffff
+                font-family "Blogger_Sans"
+                font-size 14px
+                font-weight 400
+                line-height 20px
+                @media (min-width 768px)
+                  font-size 16px
+                  font-weight 400
+                  line-height 20px
+
+
+          .slide
+            display none
+
+
+
+
+      .slider-block2
+        .slick-prev2
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-left-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+          left -9px
+          @media (min-width 1280px)
+            left 50px
+          &:before
+            display none
+
+        .slick-next2
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-right-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+          right -9px
+          @media (min-width 1280px)
+            right 50px
+          &:before
+            display none
+
+        .slick-slider
+          width 100%
+          height 350px
+          @media (min-width 768px)
+            width 610px
+          @media (min-width 1280px)
+            width 800px
+
+          .slick-slide
+            width 100%
+            height 350px
+            display flex
+            display -webkit-flex
+            justify-content flex-end
+            align-items flex-end
+            overflow hidden
+            @media (min-width 768px)
+              justify-content center
+              align-items center
+              margin 0 10px
+
+            img
+              width auto
+              height auto
+              @media (min-width 768px)
+                width auto
+                height auto
+
+        .text-slide2
+          width 100%
+          height 320px
+          @media (min-width 768px)
+            height 240px
+          @media (min-width 1280px)
+            height 220px
+
+          .text-slide-content
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+            margin 0 auto
+            @media (min-width 768px)
+              width 590px
+            @media (min-width 1280px)
+              width 784px
+            h3
+              color #ffffff
+              font-family "GretaDisplayPro"
+              font-size 21px
+              font-weight 400
+              text-transform uppercase
+              text-align left
+              margin-bottom 18px
+              width 100%
+              @media (min-width 768px)
+                font-size 25px
+                font-weight 400
+                text-transform uppercase
+
+            p
+              color #bbbbbb
+              font-family "Blogger_Sans"
+              font-size 14px
+              font-weight 400
+              line-height 20px
+              margin-bottom 18px
+              @media (min-width 768px)
+                font-size 16px
+                font-weight 400
+                line-height 20px
+
+            div.price-text
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction row
+
+              p
+                color #ffffff
+                font-family "Blogger_Sans"
+                font-size 14px
+                font-weight 400
+                line-height 20px
+                @media (min-width 768px)
+                  font-size 16px
+                  font-weight 400
+                  line-height 20px
+
+
+          .slide
+            display none
+
+
+
+
+      .slider-block3
+        .slick-prev3
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-left-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+            left -9px
+            @media (min-width 1280px)
+              left 50px
+            &:before
+              display none
+
+        .slick-next3
+          display none
+          @media (min-width 768px)
+            display block
+            background-image url("img/arrow-right-color.svg")
+            width 46px
+            height 46px
+            background-repeat no-repeat
+            background-size 100%
+            background-position center
+            position absolute
+            top 152px
+            right -9px
+            @media (min-width 1280px)
+              right 50px
+            &:before
+              display none
+
+        .slick-slider
+          width 100%
+          height 350px
+          @media (min-width 768px)
+            width 610px
+          @media (min-width 1280px)
+            width 800px
+
+
+          .slick-slide
+            width 100%
+            height 350px
+            display flex
+            display -webkit-flex
+            justify-content flex-end
+            align-items flex-end
+            overflow hidden
+            @media (min-width 768px)
+              justify-content center
+              align-items center
+              margin 0 10px
+
+            img
+              width auto
+              height auto
+              @media (min-width 768px)
+                width auto
+                height auto
+
+        .text-slide3
+          width 100%
+          height 320px
+          @media (min-width 768px)
+            height 240px
+          @media (min-width 1280px)
+            height 220px
+
+          .text-slide-content
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+            margin 0 auto
+            @media (min-width 768px)
+              width 590px
+            @media (min-width 1280px)
+              width 784px
+            h3
+              color #ffffff
+              font-family "GretaDisplayPro"
+              font-size 21px
+              font-weight 400
+              text-transform uppercase
+              text-align left
+              margin-bottom 18px
+              width 100%
+              @media (min-width 768px)
+                font-size 25px
+                font-weight 400
+                text-transform uppercase
+
+            p
+              color #bbbbbb
+              font-family "Blogger_Sans"
+              font-size 14px
+              font-weight 400
+              line-height 20px
+              margin-bottom 18px
+              @media (min-width 768px)
+                font-size 16px
+                font-weight 400
+                line-height 20px
+
+            div.price-text
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction row
+
+              p
+                color #ffffff
+                font-family "Blogger_Sans"
+                font-size 14px
+                font-weight 400
+                line-height 20px
+                @media (min-width 768px)
+                  font-size 16px
+                  font-weight 400
+                  line-height 20px
+
+
+          .slide
+            display none
+
+
+
+
+
+
+
+.tabs-active
+  border 2px solid #e3bf95!important
+  transition all 0.1s ease
+
+.text-slide-visible
+  display block!important
+
+.slider-visible
+  display block!important
+
+

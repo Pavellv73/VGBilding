@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-549.000000, -4294.000000)">
+            <g id="icon" transform="translate(548.000000, 4294.000000)">
+                <rect id="bg" x="0" y="0" width="86" height="86"></rect>
+                <g id="Group-11" transform="translate(2.000000, 1.000000)" stroke="#B69977" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Rectangle-22" points="19.0732881 0 82 0 82 71 29 71 29 82 0 82 0 0 0 0 8.05491916 0"></polyline>
+                    <path d="M34.0764385,70.5847141 L34.0764385,37 L27,37 L27,30.9765741 M27,18.9846902 L27,0" id="Path-19"></path>
+                    <path d="M35,47 L39.0948912,47 M47.0378754,47 L63.089749,47 M72.0183549,47 L81,47" id="Path-20"></path>
+                    <path d="M52,47 L52,71" id="Path-21"></path>
+                    <path d="M0.0769405111,12.2442892 L7.79176811,12.2442892 M18.3539989,12.2442892 L26.0769405,12.2442892" id="Path-22"></path>
+                    <rect id="Rectangle-23" x="39" y="67" width="8" height="4"></rect>
+                    <rect id="Rectangle-23" x="52" y="57" width="30" height="14"></rect>
+                    <rect id="Rectangle-23" x="19" y="72" width="10" height="10"></rect>
+                    <path d="M22,77.0059191 C22,75.8980806 22.8877296,75 24,75 L24,75 C25.1045695,75 26,75.8865548 26,77.0059191 L26,82 L22,82 L22,77.0059191 Z" id="Rectangle-23"></path>
+                    <rect id="Rectangle-23" x="8" y="72" width="11" height="10"></rect>
+                    <rect id="Rectangle-23" transform="translate(4.000000, 77.000000) scale(-1, 1) translate(-4.000000, -77.000000) " x="0" y="72" width="8" height="10"></rect>
+                    <path d="M55,64 C55,61.790861 56.7842933,60 58.990053,60 L79,60 L79,68 L58.990053,68 C56.7864076,68 55,66.2046438 55,64 L55,64 Z" id="Rectangle-23"></path>
+                    <path d="M40,63.0092545 C40,61.3472891 41.3465171,60 43,60 L43,60 C44.6568542,60 46,61.3496704 46,63.0092545 L46,67 L40,67 L40,63.0092545 Z" id="Rectangle-23"></path>
+                    <path d="M59,64 L60,64" id="Path-23"></path>
+                    <rect id="Rectangle-24" x="0" y="42" width="12" height="19"></rect>
+                    <rect id="Rectangle-24" transform="translate(6.500000, 62.500000) scale(1, -1) translate(-6.500000, -62.500000) " x="4" y="61" width="5" height="3"></rect>
+                    <rect id="Rectangle-24" transform="translate(6.500000, 40.500000) scale(1, -1) translate(-6.500000, -40.500000) " x="4" y="39" width="5" height="3"></rect>
+                    <rect id="Rectangle-24" transform="translate(13.500000, 47.500000) scale(1, -1) translate(-13.500000, -47.500000) " x="12" y="45" width="3" height="5"></rect>
+                    <rect id="Rectangle-24" transform="translate(13.500000, 55.500000) scale(1, -1) translate(-13.500000, -55.500000) " x="12" y="53" width="3" height="5"></rect>
+                    <rect id="Rectangle-25" x="77" y="0" width="5" height="28"></rect>
+                    <rect id="Rectangle-25" transform="translate(73.000000, 25.500000) scale(-1, 1) translate(-73.000000, -25.500000) " x="69" y="23" width="8" height="5"></rect>
+                    <rect id="Rectangle-25" transform="translate(73.000000, 2.500000) scale(-1, 1) translate(-73.000000, -2.500000) " x="69" y="0" width="8" height="5"></rect>
+                    <rect id="Rectangle-25" transform="translate(73.000000, 14.000000) scale(-1, -1) translate(-73.000000, -14.000000) " x="69" y="5" width="8" height="18"></rect>
+                    <rect id="Rectangle-25" transform="translate(57.000000, 14.000000) scale(-1, -1) translate(-57.000000, -14.000000) " x="53" y="8" width="8" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

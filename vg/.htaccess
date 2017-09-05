@@ -1,0 +1,52 @@
+ErrorDocument 404 https://www.vgbuildings.ru/404.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^vgbuildings\.ru$ [NC]
+RewriteCond %{REQUEST_URI} !^/robots.*
+RewriteRule ^(.*)$ https://www.vgbuildings.ru/$1 [R=301,L]
+
+
+<ifModule mod_deflate.c>
+  <IfModule mod_filter.c>
+      AddOutputFilterByType DEFLATE text/plain text/html
+      AddOutputFilterByType DEFLATE text/css
+      AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript
+      AddOutputFilterByType DEFLATE text/xml application/xml application/xhtml+xml application/rss+xml
+      AddOutputFilterByType DEFLATE application/json
+      AddOutputFilterByType DEFLATE application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon
+  </ifModule>
+</ifModule>
+
+
+
+<IfModule mod_expires.c>
+
+Header append Cache-Control "public"
+
+FileETag MTime Size
+
+ExpiresActive On
+
+ExpiresDefault "access plus 0 minutes"
+
+ExpiresByType image/ico "access plus 1 years"
+
+ExpiresByType text/css "access plus 1 years"
+
+ExpiresByType text/javascript "access plus 1 years"
+
+ExpiresByType image/gif "access plus 1 years"
+
+ExpiresByType image/jpg "access plus 1 years"
+
+ExpiresByType image/jpeg "access plus 1 years"
+
+ExpiresByType image/bmp "access plus 1 years"
+
+ExpiresByType image/png "access plus 1 years"
+
+ExpiresByType image/svg "access plus 1 years"
+</IfModule>
+
+
+

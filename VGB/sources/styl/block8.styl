@@ -1,0 +1,285 @@
+.block8
+  width 100%
+  height auto
+  background-color #f0f0f0
+
+  .block8-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 27px
+    padding-bottom 60px
+    @media (min-width 768px)
+      padding-top 60px
+      padding-bottom 60px
+    @media (min-width 1280px)
+      padding-top 60px
+      padding-bottom 80px
+
+    .block8-head
+      width 100%
+      height auto
+      margin-bottom 40px
+      @media (min-width 768px)
+        margin-bottom 60px
+      @media (min-width 1280px)
+        width 760px
+        margin-bottom 80px
+
+      h2
+        color #202020
+        font-family "GretaDisplayPro"
+        font-size 24px
+        font-weight 400
+        text-align left
+        margin-bottom 8px
+        @media (min-width 768px)
+          font-size 30px
+          font-weight 400
+          margin-bottom 10px
+        @media (min-width 1280px)
+          font-size 34px
+          font-weight 400
+          line-height 36px
+
+      p
+        color #202020
+        font-family "Blogger_Sans"
+        font-size 16px
+        font-weight 400
+        line-height 18px
+        text-align left
+        br
+          display none
+        @media (min-width 768px)
+          font-size 18px
+          font-weight 400
+          line-height 20px
+        @media (min-width 1280px)
+          font-size 20px
+          font-weight 400
+          line-height 24px
+          br
+            display block
+
+    .table-block
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction row
+      @media (min-width 1280px)
+        justify-content flex-start
+
+      .table-static
+        width 50%
+        height auto
+        @media (min-width 768px)
+          width 144px
+        @media (min-width 1280px)
+          width 184px
+
+        div
+          width auto
+          height 56px
+          border-bottom 1px solid #c7c7c7
+          border-top 1px solid #c7c7c7
+          padding-left 10px
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items center
+          &:nth-of-type(1)
+            border-bottom 1px
+          &:nth-of-type(2)
+            border-bottom 1px
+          &:nth-of-type(3)
+            border-bottom 1px
+          @media (min-width 768px)
+            height 81px
+
+          h3
+            color #202020
+            font-family "GretaDisplayPro"
+            font-size 21px
+            font-weight 400
+            line-height 22px
+            text-align left
+            @media (min-width 768px)
+              font-size 23px
+              font-weight 400
+              line-height 23px
+
+    .table-slider
+      width 50%
+      height auto
+      position relative
+      @media (min-width 768px)
+        width 551px
+      @media (min-width 1280px)
+        width auto
+
+      .slick-slider
+        width 100%
+        height auto
+
+        .slick-slide
+          width 100%
+          height auto
+
+          table
+            width 100%
+            height auto
+
+
+            tbody
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content center
+              align-items flex-start
+              flex-direction column
+              border-radius 2px
+              background-color #f7f7f7
+              transition all 0.2s ease
+
+              @media (min-width 768px)
+                border 1px solid transparent
+                background-color transparent
+                &:hover
+                  background-color #f7f7f7
+                  border 1px solid #c7c7c7
+              @media (min-width 1280px)
+                width 184px
+
+
+
+
+              tr
+                width 100%
+                height 56px
+                border 1px solid #c7c7c7
+                display flex
+                display -webkit-flex
+                justify-content center
+                align-items center
+                @media (min-width 768px)
+                  height 81px
+                  border-right 0
+                  border-left 0
+                &:nth-of-type(1)
+                  border-bottom 0
+                  @media (min-width 768px)
+                    border-top 0
+                &:nth-of-type(2)
+                  border-bottom 0
+                &:nth-of-type(3)
+                  border-bottom 0
+                &:nth-of-type(4)
+                  border-bottom 0
+                &:nth-of-type(5)
+                  border-bottom 0
+                &:nth-of-type(6)
+                  @media (min-width 768px)
+                    border-bottom 0
+
+
+                .head-t
+                  color #202020
+                  font-family "GretaDisplayPro"
+                  font-style normal
+                  font-size 14px
+                  font-weight 400
+                  text-transform uppercase
+                  @media (min-width 768px)
+                    font-size 16px
+                  @media (min-width 1280px)
+                    font-size 18px
+                    font-weight 300
+
+
+
+                td
+                  width 100%
+                  height auto
+                  box-sizing border-box
+                  color #4f4f4f
+                  font-family "Blogger_Sans-Italico"
+                  font-style italic
+                  font-size 14px
+                  font-weight 300
+                  line-height 20px
+                  text-align center
+                  br
+                    display none
+                  @media (min-width 768px)
+                    font-size 16px
+                    br
+                      display block
+                  @media (min-width 1280px)
+                    font-size 18px
+                    font-weight 300
+                    br
+                      display none
+
+
+                  a
+                    width 114px
+                    height 34px
+                    border-radius 80px
+                    border 2px solid #b69977
+                    color #202020
+                    font-family "Blogger_Sans"
+                    font-style normal
+                    font-size 10px
+                    font-weight bold
+                    letter-spacing 0.36px
+                    text-transform uppercase
+                    padding 12px 30px
+                    box-sizing border-box
+                    @media (min-width 1280px)
+                      width 152px
+                      height 42px
+                      font-size 13px
+                      font-weight 500
+                      padding 13px 44px
+
+
+
+        .dots
+          width 100%
+          height 15px
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction row
+          margin-top 18px
+          position absolute
+          bottom -36px
+          left -50%
+          @media (min-width 768px)
+            display none!important
+
+          li
+            width 13px
+            height 13px
+            border 2px solid #b69977
+            border-radius 100%
+            margin 0 6px
+            transition all 0.2s ease
+
+            button
+              display none
+
+          li.slick-active
+            width 13px
+            height 13px
+            border 2px solid #b69977
+            background-color #b69977
+            transition all 0.2s ease
